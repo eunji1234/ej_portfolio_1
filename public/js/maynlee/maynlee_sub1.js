@@ -1,4 +1,5 @@
 $(function(){
+
 // 헤더 색깔
     $('.header .logo_b').css('display','block')
     $('.nav .menu .hamburger span').css('border','1px #000 solid')
@@ -43,6 +44,32 @@ $(function(){
         $('.collection-sub1 .y').css({
             'transform':'translate('+x/12+'px,'+y/12+'px)'
         })
+
+    })
+    //--------------------------------------------------------------------
+    $.getJSON('maynlee_sub1.json',function(maynlee_sub1){
+        for(i=0; i < $('.collection-sub1').length; i++){
+            var html = "";
+
+            html += '<a href ="+maynlee_sub1_collection.html?seq='+i+'">';
+            html += '<img src="../public/images/maynlee/images/Primor1.jpg" alt="">';
+            html += '<span>';
+            html += '<a href="">';
+            html += '<h6>WEDDING RING, ＇NEW＇</h6>';
+            html += '<H2>PRIMOR</H2></a>';
+            html += '</span>';
+            html += '</a>';
+        }
+
+        var seq = location.href;
+        seq = seq.split('?');
+        seq = seq[1].split('=');
+
+        $('.col-img').css('background-image','url("'+maynlee_sub1.product[seq[1]].colimg+'")')
+        $('.product_main img').css('background-image','url("'+maynlee_sub1.product[seq[1]].product_main+'")')
+
+        $('.product_imglist li').css('background-image','url("'+maynlee_sub1.product[seq[1]].product_main.sub11+'")')
+
 
     })
 

@@ -550,86 +550,91 @@ body {
   position: relative;
 }
 /* line 19, public\less\maynlee\maynlee_sub1.less */
+.sub1 .collection-sub1 li a {
+  display: block;
+  color: #000;
+}
+/* line 20, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li span {
   width: 157px;
   height: 50px;
   display: block;
 }
-/* line 19, public\less\maynlee\maynlee_sub1.less */
+/* line 20, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li span a {
   color: #000;
 }
-/* line 20, public\less\maynlee\maynlee_sub1.less */
+/* line 21, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li span H2 {
   letter-spacing: 3px;
 }
-/* line 21, public\less\maynlee\maynlee_sub1.less */
+/* line 22, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(even) {
   margin-left: 7%;
 }
-/* line 22, public\less\maynlee\maynlee_sub1.less */
+/* line 23, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(even) a {
   text-align: right;
 }
-/* line 24, public\less\maynlee\maynlee_sub1.less */
+/* line 25, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(1) {
   width: 500px;
   height: 480px;
 }
-/* line 25, public\less\maynlee\maynlee_sub1.less */
+/* line 26, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(1) img {
   width: 425px;
   height: 425px;
   position: absolute;
   top: 0;
 }
-/* line 26, public\less\maynlee\maynlee_sub1.less */
+/* line 27, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(1) span {
   position: absolute;
   right: -10%;
   top: 5%;
 }
-/* line 27, public\less\maynlee\maynlee_sub1.less */
+/* line 28, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(1) span H2 {
   position: absolute;
   bottom: 0;
   font-size: 20px;
   font-weight: 700;
 }
-/* line 29, public\less\maynlee\maynlee_sub1.less */
+/* line 30, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(2) {
   width: 500px;
   height: 480px;
 }
-/* line 30, public\less\maynlee\maynlee_sub1.less */
+/* line 31, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(2) img {
   width: 425px;
   height: 425px;
   position: absolute;
   right: 3%;
 }
-/* line 31, public\less\maynlee\maynlee_sub1.less */
+/* line 32, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(2) span {
   position: absolute;
   left: -10%;
   bottom: 15%;
 }
-/* line 32, public\less\maynlee\maynlee_sub1.less */
+/* line 33, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(2) span h6 {
   text-align: right;
 }
-/* line 33, public\less\maynlee\maynlee_sub1.less */
+/* line 34, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(2) span H2 {
   font-size: 20px;
   text-align: right;
   line-height: 50px;
 }
-/* line 36, public\less\maynlee\maynlee_sub1.less */
+/* line 37, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(3) {
   width: 500px;
   height: 480px;
 }
-/* line 37, public\less\maynlee\maynlee_sub1.less */
+/* line 38, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(3) img {
   width: 425px;
   height: 273px;
@@ -637,24 +642,24 @@ body {
   right: 0;
   top: 15%;
 }
-/* line 38, public\less\maynlee\maynlee_sub1.less */
+/* line 39, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(3) span {
   position: absolute;
   right: -10%;
   top: 25%;
 }
-/* line 39, public\less\maynlee\maynlee_sub1.less */
+/* line 40, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(3) span H2 {
   position: absolute;
   bottom: 0;
   font-size: 20px;
 }
-/* line 41, public\less\maynlee\maynlee_sub1.less */
+/* line 42, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(4) {
   width: 500px;
   height: 480px;
 }
-/* line 42, public\less\maynlee\maynlee_sub1.less */
+/* line 43, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(4) img {
   width: 425px;
   height: 273px;
@@ -662,52 +667,52 @@ body {
   right: 0;
   top: 15%;
 }
-/* line 43, public\less\maynlee\maynlee_sub1.less */
+/* line 44, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(4) span {
   position: absolute;
   left: -10%;
   bottom: 35%;
 }
-/* line 44, public\less\maynlee\maynlee_sub1.less */
+/* line 45, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(4) span h6 {
   text-align: right;
 }
-/* line 45, public\less\maynlee\maynlee_sub1.less */
+/* line 46, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(4) span H2 {
   font-size: 20px;
   text-align: right;
   line-height: 50px;
 }
-/* line 48, public\less\maynlee\maynlee_sub1.less */
+/* line 49, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(5) {
   width: 500px;
   height: 480px;
 }
-/* line 49, public\less\maynlee\maynlee_sub1.less */
+/* line 50, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(5) img {
   width: 425px;
   height: 273px;
   position: absolute;
   top: 15%;
 }
-/* line 50, public\less\maynlee\maynlee_sub1.less */
+/* line 51, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(5) span {
   position: absolute;
   right: -6%;
   top: 25%;
 }
-/* line 51, public\less\maynlee\maynlee_sub1.less */
+/* line 52, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(5) span H2 {
   position: absolute;
   bottom: 0;
   font-size: 20px;
 }
-/* line 53, public\less\maynlee\maynlee_sub1.less */
+/* line 54, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(6) {
   width: 500px;
   height: 480px;
 }
-/* line 54, public\less\maynlee\maynlee_sub1.less */
+/* line 55, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(6) img {
   width: 425px;
   height: 425px;
@@ -715,80 +720,81 @@ body {
   top: 0;
   right: 0;
 }
-/* line 55, public\less\maynlee\maynlee_sub1.less */
+/* line 56, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(6) span {
   position: absolute;
   left: -7%;
   bottom: 25%;
 }
-/* line 56, public\less\maynlee\maynlee_sub1.less */
+/* line 57, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(6) span h6 {
   text-align: right;
 }
-/* line 57, public\less\maynlee\maynlee_sub1.less */
+/* line 58, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(6) span H2 {
   font-size: 20px;
   text-align: right;
   line-height: 50px;
 }
-/* line 60, public\less\maynlee\maynlee_sub1.less */
+/* line 61, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(7) {
   width: 500px;
   height: 680px;
 }
-/* line 61, public\less\maynlee\maynlee_sub1.less */
+/* line 62, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(7) img {
   width: 425px;
   height: 655px;
   position: absolute;
   top: -10%;
 }
-/* line 62, public\less\maynlee\maynlee_sub1.less */
+/* line 63, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(7) span {
   position: absolute;
   right: -10%;
   top: 15%;
 }
-/* line 63, public\less\maynlee\maynlee_sub1.less */
+/* line 64, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(7) span H2 {
   position: absolute;
   bottom: 0;
   font-size: 20px;
 }
-/* line 65, public\less\maynlee\maynlee_sub1.less */
+/* line 66, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(8) {
   width: 500px;
   height: 680px;
 }
-/* line 66, public\less\maynlee\maynlee_sub1.less */
+/* line 67, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(8) img {
   width: 425px;
   height: 273px;
   position: absolute;
   top: 30%;
+  left: 0;
 }
-/* line 67, public\less\maynlee\maynlee_sub1.less */
+/* line 68, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(8) span {
   position: absolute;
   left: -13%;
   bottom: 35%;
 }
-/* line 68, public\less\maynlee\maynlee_sub1.less */
+/* line 69, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(8) span h6 {
   text-align: right;
 }
-/* line 69, public\less\maynlee\maynlee_sub1.less */
+/* line 70, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(8) span H2 {
   font-size: 20px;
   text-align: right;
   line-height: 50px;
 }
-/* line 72, public\less\maynlee\maynlee_sub1.less */
+/* line 73, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(9) {
   width: 500px;
   height: 650px;
 }
-/* line 73, public\less\maynlee\maynlee_sub1.less */
+/* line 74, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(9) img {
   width: 425px;
   height: 425px;
@@ -796,24 +802,24 @@ body {
   right: 0;
   top: 0;
 }
-/* line 74, public\less\maynlee\maynlee_sub1.less */
+/* line 75, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(9) span {
   position: absolute;
   right: -25%;
   top: 0;
 }
-/* line 75, public\less\maynlee\maynlee_sub1.less */
+/* line 76, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(9) span H2 {
   position: absolute;
   bottom: 0;
   font-size: 20px;
 }
-/* line 77, public\less\maynlee\maynlee_sub1.less */
+/* line 78, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(10) {
   width: 500px;
   height: 650px;
 }
-/* line 78, public\less\maynlee\maynlee_sub1.less */
+/* line 79, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(10) img {
   width: 425px;
   height: 425px;
@@ -821,17 +827,17 @@ body {
   right: 0;
   top: -10%;
 }
-/* line 79, public\less\maynlee\maynlee_sub1.less */
+/* line 80, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(10) span {
   position: absolute;
   left: -7%;
   top: 30%;
 }
-/* line 80, public\less\maynlee\maynlee_sub1.less */
+/* line 81, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(10) span h6 {
   text-align: right;
 }
-/* line 81, public\less\maynlee\maynlee_sub1.less */
+/* line 82, public\less\maynlee\maynlee_sub1.less */
 .sub1 .collection-sub1 li:nth-child(10) span H2 {
   font-size: 20px;
   text-align: right;
@@ -1529,4 +1535,119 @@ body {
   line-height: 180%;
   font-size: 12px;
   letter-spacing: 0.5px;
+}
+/* line 3, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-img {
+  width: 100%;
+  height: 950px;
+  background-size: cover;
+}
+/* line 4, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product {
+  width: 1080px;
+  height: 1180px;
+  margin: 0 auto;
+}
+/* line 5, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_main {
+  width: 399px;
+  height: 546px;
+  margin: 0 auto;
+}
+/* line 6, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_main img {
+  width: 399px;
+  height: 266px;
+  margin-top: 280px;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 9, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product h4 {
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 6px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 10, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_imglist {
+  width: 480px;
+  height: 160px;
+  outline: 1px #000 solid;
+  margin: 0 auto;
+}
+/* line 11, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_imglist ul {
+  padding: 35px;
+}
+/* line 12, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_imglist ul li {
+  width: 25%;
+  height: 80px;
+  outline: 1px #000 solid;
+  display: inline-block;
+  font-size: 0;
+  margin-right: 28px;
+  background-size: cover;
+}
+/* line 13, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_imglist ul li:first-child {
+  margin-left: 10px;
+}
+/* line 17, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text {
+  width: 100%;
+  height: 242px;
+  outline: 1px #000 solid;
+}
+/* line 18, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_ex {
+  width: 530px;
+  height: 242px;
+  float: left;
+  outline: 1px #000 solid;
+  margin-left: 1%;
+  position: relative;
+}
+/* line 19, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_ex p:first-child {
+  width: 530px;
+  height: 86px;
+}
+/* line 20, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_ex p:last-child {
+  width: 530px;
+  height: 156px;
+  outline: 1px #000 solid;
+  position: absolute;
+  bottom: 0;
+  line-height: 220%;
+}
+/* line 22, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_info {
+  width: 530px;
+  height: 242px;
+  float: left;
+  outline: 1px #000 solid;
+}
+/* line 23, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_info p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+/* line 24, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_info table {
+  width: 530px;
+  height: 101px;
+  border-collapse: collapse;
+}
+/* line 25, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_info table tr,
+.collection .col-product .product_text .product_info table td {
+  border: 1px #d9d9d9 solid;
+}
+/* line 26, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col-product .product_text .product_info table tr:nth-child(1) {
+  height: 63px;
 }

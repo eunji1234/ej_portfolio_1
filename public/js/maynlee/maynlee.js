@@ -90,8 +90,8 @@ $(function(){
         idx--
         movemuent('-100%','0',idx);
 
-        if(idx == $('.album-wrap li').length){
-            idx - 0
+        if(idx < 0){
+            idx == 2
             movemuent('100%','0',idx)
         }
     })
