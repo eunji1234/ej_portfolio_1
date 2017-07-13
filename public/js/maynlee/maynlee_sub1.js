@@ -46,7 +46,40 @@ $(function(){
         })
 
     })
-    //--------------------------------------------------------------------
+
+// 슬라이드 다운, 스크롤
+    $('.slide-down a').click(function(){
+        $('html, body').stop().animate({'scrollTop':'950px'}, 600)
+    })
+
+    $('.totop a').click(function(){
+        $('html, body').stop().animate({'scrollTop': 0}, 600);
+
+    })
+
+
+    $(window).scroll(function(){
+
+         var scted  = $(window).scrollTop();
+         var cue = $('.slide-down').offset().top;
+
+         if(cue < scted && !$('body').is('.on')){
+             $('body').addClass('on')
+             $('.logo_b').css('display','block')
+             $('.header .header_btn i').css('color','#000')
+             $('.header .menu a').css('color','#000')
+             $('.header .hamburger span').css('border','1px #000 solid')
+         }else if(cue > scted && $('body').is('.on')){
+             $('body').removeClass('on')
+             $('.logo_b').css('display','none')
+             $('.header .header_btn i').css('color','#fff')
+             $('.header .menu a').css('color','#fff')
+             $('.header .hamburger span').css('border','1px #fff solid')
+         }
+
+    })
+
+    //--------------------JSON------------------------------------------------
     $.getJSON('maynlee_sub1.json',function(maynlee_sub1){
         for(i=0; i < $('.collection-sub1').length; i++){
             var html = "";
@@ -65,14 +98,35 @@ $(function(){
         seq = seq.split('?');
         seq = seq[1].split('=');
 
-        $('.col-img').css('background-image','url("'+maynlee_sub1.product[seq[1]].colimg+'")')
+        $('.col_img').css('background-image','url("'+maynlee_sub1.product[seq[1]].colimg+'")')
         $('.product_main img').css('background-image','url("'+maynlee_sub1.product[seq[1]].product_main+'")')
+        $('.product_ex p').each(function(i,e){
+            $(this).append(maynlee_sub1.product[seq[1]].product_ex[i])
+        })
+        $('.product_info td').each(function(i){
+            $(this).append(maynlee_sub1.product[seq[1]].product_info[i])
+        })
 
-        $('.product_imglist li').css('background-image','url("'+maynlee_sub1.product[seq[1]].product_main.sub11+'")')
-
+        $('.product_imglist li').each(function(i){
+            $(this).css('background-image','url("'+maynlee_sub1.product[seq[1]].product_imglist[i]+'")')
+        })
+        $('.col_product h4').append(maynlee_sub1.product[seq[1]].h4)
 
     })
 
+    //--------------li 이미지 팝업----------------
+    $('.product_imglist li').click(function(){
+        var bgimg = $(this).css('background-image')
+            $('.product_imglist .popimg').css({
+                'display':'block',
+                'background-image':bgimg
+            })
+    })
 
+    $('.product_imglist .popimg .close_btn').click(function(){
+        $('.product_imglist .popimg').css({
+            'display':'none'
+        })
+    })
 
 })

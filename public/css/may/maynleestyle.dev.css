@@ -434,35 +434,19 @@ a {
   height: 50px;
   text-align: center;
   font-family: "Flaticon";
-}
-/* line 119, public\less\maynlee\maynlee.less */
-.wrap .footer .totop img {
-  width: 10px;
-  height: 10px;
-}
-/* line 120, public\less\maynlee\maynlee.less */
-.wrap .footer .totop a {
-  color: #000;
-}
-/* line 121, public\less\maynlee\maynlee.less */
-.wrap .footer .totop a:nth-child(1) {
-  position: absolute;
-  bottom: 9%;
-  left: 50%;
-}
-/* line 122, public\less\maynlee\maynlee.less */
-.wrap .footer .totop a:nth-child(1) i {
-  font-size: 10px;
-  color: #000;
-  font-weight: bold;
-}
-/* line 123, public\less\maynlee\maynlee.less */
-.wrap .footer .totop a:nth-child(2) {
   position: absolute;
   bottom: 5%;
-  left: 47.5%;
+}
+/* line 123, public\less\maynlee\maynlee.less */
+.wrap .footer .totop i {
+  width: 100%;
+  height: 15px;
+  display: block;
+}
+/* line 126, public\less\maynlee\maynlee.less */
+.wrap .footer .totop a {
   color: #000;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
 }
 /* line 1, public\less\maynlee\maynlee_sub1.less */
@@ -1536,118 +1520,194 @@ body {
   font-size: 12px;
   letter-spacing: 0.5px;
 }
-/* line 3, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-img {
+/* line 2, public\less\maynlee\maynlee_sub1_collection.less */
+::selection {
+  background-color: #ecb96a;
+  color: #fff;
+  border-bottom: 1px dotted #f00;
+}
+/* line 6, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_img {
   width: 100%;
   height: 950px;
+  position: relative;
   background-size: cover;
+  background-position: center center;
 }
-/* line 4, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product {
+/* line 7, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_img .slide-down {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+/* line 9, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_img .slide-down a {
+  color: #fff;
+}
+/* line 10, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_img .slide-down a:nth-child(1) {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 49.7%;
+}
+/* line 11, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_img .slide-down a:nth-child(2) {
+  font-size: 14px;
+}
+/* line 15, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product {
   width: 1080px;
-  height: 1180px;
+  height: 1380px;
   margin: 0 auto;
 }
-/* line 5, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_main {
+/* line 16, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_main {
   width: 399px;
   height: 546px;
   margin: 0 auto;
 }
-/* line 6, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_main img {
+/* line 17, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_main img {
   width: 399px;
   height: 266px;
-  margin-top: 280px;
+  margin-top: 40%;
   background-size: cover;
   background-position: center center;
 }
-/* line 9, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product h4 {
+/* line 19, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product h4 {
   font-size: 28px;
   text-align: center;
   letter-spacing: 6px;
-  margin-top: 40px;
+  margin-top: 2%;
   margin-bottom: 40px;
 }
-/* line 10, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_imglist {
+/* line 20, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist {
   width: 480px;
   height: 160px;
-  outline: 1px #000 solid;
   margin: 0 auto;
 }
-/* line 11, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_imglist ul {
+/* line 21, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist ul {
   padding: 35px;
 }
-/* line 12, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_imglist ul li {
-  width: 25%;
+/* line 22, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist ul li {
+  width: 80px;
   height: 80px;
-  outline: 1px #000 solid;
   display: inline-block;
   font-size: 0;
-  margin-right: 28px;
+  margin-right: 10.5%;
   background-size: cover;
+  background-position: center;
 }
-/* line 13, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_imglist ul li:first-child {
-  margin-left: 10px;
+/* line 23, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist ul li:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
 }
-/* line 17, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text {
+/* line 28, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist ul li img {
+  width: 100%;
+  height: 20px;
+}
+/* line 29, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist ul li:first-child {
+  margin-left: 28px;
+}
+/* line 31, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist .popimg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+  border: 1px #ccc solid;
+  background-color: #fff;
+}
+/* line 44, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_imglist .popimg .close_btn {
+  width: 35px;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+/* line 53, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text {
   width: 100%;
   height: 242px;
-  outline: 1px #000 solid;
 }
-/* line 18, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_ex {
+/* line 54, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_ex {
   width: 530px;
   height: 242px;
   float: left;
-  outline: 1px #000 solid;
   margin-left: 1%;
   position: relative;
 }
-/* line 19, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_ex p:first-child {
-  width: 530px;
-  height: 86px;
+/* line 55, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_ex p {
+  font-size: 12px;
 }
-/* line 20, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_ex p:last-child {
+/* line 56, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_ex p:first-child {
+  width: 530px;
+  height: 50px;
+  font-weight: bold;
+}
+/* line 57, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_ex p:last-child {
   width: 530px;
   height: 156px;
-  outline: 1px #000 solid;
   position: absolute;
-  bottom: 0;
+  top: 18%;
   line-height: 220%;
 }
-/* line 22, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_info {
+/* line 59, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info {
   width: 530px;
   height: 242px;
   float: left;
-  outline: 1px #000 solid;
 }
-/* line 23, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_info p {
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-/* line 24, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_info table {
+/* line 60, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table {
   width: 530px;
   height: 101px;
   border-collapse: collapse;
 }
-/* line 25, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_info table tr,
-.collection .col-product .product_text .product_info table td {
+/* line 61, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table tr,
+.collection .col_product .product_text .product_info table td {
   border: 1px #d9d9d9 solid;
+  font-size: 11px;
 }
-/* line 26, public\less\maynlee\maynlee_sub1_collection.less */
-.collection .col-product .product_text .product_info table tr:nth-child(1) {
+/* line 62, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table tr:nth-child(1) {
   height: 63px;
+}
+/* line 63, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table td {
+  padding: 1%;
+  line-height: 220%;
+}
+/* line 65, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table td:first-child {
+  font-size: 12px;
+}
+/* line 67, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table .vatop {
+  vertical-align: top;
+}
+/* line 70, public\less\maynlee\maynlee_sub1_collection.less */
+.collection .col_product .product_text .product_info table .vatop2 {
+  vertical-align: top;
 }
