@@ -20,8 +20,8 @@ module.exports = function(grunt){
                     compress:true
                 },
                 files: {
-                    'public/css/may/maynleestyle.css': 'public/less/maynlee/import.less'
-
+                    'public/css/may/maynleestyle.css': 'public/less/maynlee/import.less',
+                    'public/css/innisfree/innisfreestyle.css': 'public/less/innisfree/import.less'
                 }
 
 
